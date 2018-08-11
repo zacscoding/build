@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Maven multi module test!!</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+<h4>Hello!!@@</h4>
+
+<table style="width:  80%;">
+  <tr>
+    <td>Name</td>
+    <td><input type="text" id="name"></td>
+  </tr>
+
+  <tr>
+    <td>Age</td>
+    <td><input type="text" id="age"></td>
+  </tr>
+
+  <tr>
+    <td colspan="100%">
+      <button id="btnAdd">ADD</button>
+    </td>
+  </tr>
+</table>
+
+<div id="result-div"></div>
+
+<div id="person-div"></div>
+<br/>
+
+</body>
+
+<script>
+  $(function () {
+
+    (function initHostDetail() {
+      displayPersons();
+    })();
+
+    function displayPersons() {
+      $.ajax({
+        url    : 'persons/',
+        headers: {
+          dataType: 'json',
+        },
+        success: function (persons) {
+          console.log(persons);
+          var html = '<table style="width:80%;">';
+
+          for (var i = 0, size = persons.length; i < size; i++) {
+            html += '<tr><td>' + (i + 1) + '</td><td>' + persons[i].name + '(' + persons[i].age + ')' + '</td></tr>'
+          }
+
+          html += '</table>';
+
+          var $target = $('#person-div');
+          $target.empty();
+          $target.append(html);
+        },
+        error  : function (jqxhr) {
+          console.log(jqxhr);
+        }
+      });
+    }
+
+    $(document).on('click', '#btnAdd', function () {
+      var person = {
+        name: $('#name').val(),
+        age : Number($('#age').val())
+      };
+
+      $.ajax({
+        url        : 'person/',
+        type       : 'post',
+        dataType   : 'json',
+        contentType: 'application/json',
+        data       : JSON.stringify(person),
+        success    : function (result) {
+          console.log(result);
+          displayPersons();
+        }
+        ,
+        error      : function (jqxhr) {
+          console.log(jqxhr);
+          alert("ERROR");
+        }
+      })
+      ;
+    });
+  });
+</script>
+
+</html>

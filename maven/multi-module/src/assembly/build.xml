@@ -1,0 +1,34 @@
+<assembly>
+    <id>multi-module</id>
+    <formats>
+        <format>tar</format>
+    </formats>
+
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>src/main/resources/bin</directory>
+            <outputDirectory>.</outputDirectory>
+            <includes>
+                <include>*.sh</include>
+            </includes>
+            <fileMode>755</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>module-api/target</directory>
+            <outputDirectory>.</outputDirectory>
+            <includes>
+                <include>module-api-${project.version}.jar</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>module-web/target</directory>
+            <outputDirectory>.</outputDirectory>
+            <includes>
+                <include>module-web-${project.version}.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

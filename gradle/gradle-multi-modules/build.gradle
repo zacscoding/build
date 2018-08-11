@@ -1,39 +1,30 @@
-allprojects {
-    apply plugin: 'eclipse'
-    if (JavaVersion.current().isJava8Compatible()) {
-        //Disable lint of javadoc until someone fixes all the html
-        tasks.withType(Javadoc) {
-            options.addStringOption('Xdoclint:none', '-quiet')
-        }
+buildscript {
+    ext {
+        springBootVersion = '2.0.2.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
 
 subprojects {
     apply plugin: 'java'
-    apply plugin: 'maven'
-
-    group = 'org.multi-module'
+    apply plugin: 'eclipse'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
 
     sourceCompatibility = 1.8
-
-    compileJava.options.encoding = 'UTF-8'
-    compileJava.options.compilerArgs << '-XDignore.symbol.file'
-
-    compileTestJava.options.encoding = 'UTF-8'
-
     repositories {
+        mavenLocal()
         mavenCentral()
     }
-}
 
-project(':module-api') {
     dependencies {
-        compile project(':module-common')
+        compileOnly('org.projectlombok:lombok')
+        testCompile("org.springframework.boot:spring-boot-starter-test")
     }
-}
 
-project(':module-web') {
-    dependencies {
-        compile project(':module-common')
-    }
 }

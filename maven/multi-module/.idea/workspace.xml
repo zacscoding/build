@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e94d92b-6afd-49f9-8e90-6d4dca6be504" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/src/main/java/org/multi/common/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-api/src/main/java/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-api/src/main/java/api/web/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-common/src/main/java/common/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/src/main/java/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/src/main/java/web/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assembly/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/bin/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/4.0/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/4.0/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/4.0/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/4.0/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/4.0/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/4.0/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_hibernate_validator_hibernate_validator_6_0_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_context_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_core_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_jcl_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_test_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_web_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/libraries/Gradle__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/api_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/api_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-api/module-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-api/module-api_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-api/module-api_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-common/module-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-common/module-common_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-common/module-common_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-web/module-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-web/module-web_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/module-web/module-web_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/web_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/modules/web_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/src/main/java/org/demo/api/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/src/main/java/org/demo/api/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/src/main/java/org/demo/api/web/ApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/src/test/java/org/demo/api/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-api/src/test/java/org/demo/api/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/out/production/classes/org/demo/common/entity/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/out/production/classes/org/demo/common/util/GsonUtil$GsonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/out/production/classes/org/demo/common/util/GsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/src/main/java/org/demo/common/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-common/src/main/java/org/demo/common/util/GsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/src/main/java/org/multimodule/web/WebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/src/main/java/org/multimodule/web/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/module-web/src/test/java/org/multimodule/web/WebApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../gradle/gradle-multi-modules/settings.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/module-api/target/" />
+    <ignored path="$PROJECT_DIR$/module-common/target/" />
+    <ignored path="$PROJECT_DIR$/module-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="715">
+                <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assembly/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="42" column="50" selection-start-line="41" selection-start-column="12" selection-end-line="42" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/git/analyze-blockchain/ethereumj-harmony" value="PREVIEW" />
+        <entry key="$USER_HOME$/git/analyze-blockchain/ethereumj/analyze-ethereumj" value="PREVIEW" />
+        <entry key="$USER_HOME$/git/analyze-ethereumj" value="PREVIEW" />
+        <entry key="$USER_HOME$/git/spring-boot-example/book/spring-boot-inaction/ch03_customizing_configuration/readinglist" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../others/web3j" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../ethereum-explorer/explorer-boot-jsp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../spring-boot-example/springboot-rabbitmq-demo" value="PREVIEW" />
+        <entry key="D:/git-view/ethereum-harmony" value="PREVIEW" />
+        <entry key="D:/git-view/ethereumj" value="PREVIEW" />
+        <entry key="D:/git-view/ethereumj-test/ethereumj" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/module-api/src/main/java/api/Application.java" />
+        <option value="$PROJECT_DIR$/module-api/src/main/java/api/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/module-common/src/main/java/common/entity/Person.java" />
+        <option value="$PROJECT_DIR$/module-web/src/main/java/web/Application.java" />
+        <option value="$PROJECT_DIR$/module-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/module-web/src/main/java/web/api/ApiController.java" />
+        <option value="$PROJECT_DIR$/module-web/src/main/java/web/api/ApiService.java" />
+        <option value="$PROJECT_DIR$/module-api/src/main/java/api/ApiApplication.java" />
+        <option value="$PROJECT_DIR$/module-api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/module-api/src/main/java/api/web/PersonController.java" />
+        <option value="$PROJECT_DIR$/module-web/src/main/java/web/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/module-web/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/module-web/pom.xml" />
+        <option value="$PROJECT_DIR$/module-api/pom.xml" />
+        <option value="$PROJECT_DIR$/src/resources/assembly/build.xml" />
+        <option value="$PROJECT_DIR$/src/resources/bin/start.sh" />
+        <option value="$PROJECT_DIR$/module-common/src/test/java/PersonTest.java" />
+        <option value="$PROJECT_DIR$/module-common/pom.xml" />
+        <option value="$PROJECT_DIR$/src/assembly/build.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="multi-module" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="multi-module" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-384" />
+    <option name="y" value="85" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="multi-module" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\zaccoding\build\maven\multi-module\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="module-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="api.ApiApplication" />
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="module-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="web.WebApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.WebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e94d92b-6afd-49f9-8e90-6d4dca6be504" name="Default" comment="" />
+      <created>1533919202296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533919202296</updated>
+      <workItem from="1533919206629" duration="1612000" />
+      <workItem from="1533961037682" duration="3156000" />
+      <workItem from="1533964226420" duration="3710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8478000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32994652" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="ASM" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3834254" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19679144" />
+      <window_info anchor="bottom" id="Problems" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32994652" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-common/src/main/java/common/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/java/api/web/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/java/api/service/PersonService.java" />
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/java/api/ApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-common/src/main/java/common/entity.java" />
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/java/api/service/PersonService.java" />
+    <entry file="file://$PROJECT_DIR$/module-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-web/src/main/java/web/api/ApiService.java" />
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/java/api/web/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/src/main/java/api/ApiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-web/src/main/java/web/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-web/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="53" column="116" selection-start-line="53" selection-start-column="116" selection-end-line="53" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-common/src/main/java/common/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-web/src/main/java/web/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/bin/start.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-common/src/test/java/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-module.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="50" selection-start-line="41" selection-start-column="12" selection-end-line="42" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assembly/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="715">
+            <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>module-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean assembly:single" />
+    <option value="clean package -e" />
+    <option value="-pl module-api clean package" />
+    <option value="-pl '!module-common' clean install" />
+    <option value="-P ci clean install" />
+    <option value="package -rf module-common -e" />
+    <option value="package -e" />
+    <option value="package -rf :module-common" />
+  </component>
+</project>
