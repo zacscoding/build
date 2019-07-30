@@ -1,0 +1,15 @@
+ext {
+    grpcVersion = '1.22.1'
+    nettyTcnativeVersion = '2.0.25.Final'
+}
+
+
+dependencyManagement {
+    dependencies {
+        // grpcs
+        dependency "io.grpc:grpc-netty:${grpcVersion}"
+        dependency "io.grpc:grpc-protobuf:${grpcVersion}"
+        dependency "io.grpc:grpc-stub:${grpcVersion}"
+        dependency "io.netty:netty-tcnative-boringssl-static:${grpcVersion}"
+    }
+}
